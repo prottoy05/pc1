@@ -1,34 +1,95 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>Facebook</title>
-	<link rel="stylesheet" href="Facebook.css">
-	<link rel="preconnect" href="https://fonts.googleapis.com">
-	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-	<link href="https://fonts.googleapis.com/css2?family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700&display=swap" rel="stylesheet">
-	<link rel="icon" href="https://upload.wikimedia.org/wikipedia/commons/thumb/5/51/Facebook_f_logo_%282019%29.svg/1200px-Facebook_f_logo_%282019%29.svg.png">
-</head>
-<body>
-	<div class="main">
-		<div class="logo">
-		<img src="https://static.xx.fbcdn.net/rsrc.php/y1/r/4lCu2zih0ca.svg" alt="facebook">
-		<h2>Facebook helps you connect and share with the people in your life.</h2>
+<html>
+	<head>
+		<title>Nav Bar</title>
+		<link rel="stylesheet" href="style.css">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+	</head>
+	<body>
+		<div class="nav">
+			<img src="logo.jpg" class="logo">
+			<ul>
+				<li><a href="#home">Home</a></li>
+				<li><a href="#about">About Me</a></li>
+				<li><a href="#gallery">Gallery</a></li>
+				<li><a href="#contact">Contact</a></li>
+			</ul>
+			<div class="icon">
+				<div class="icons"> <a href=""><i class="fa-brands fa-facebook-f"></i></a></div>
+				<div class="icons"> <a href=""><i class="fa-brands fa-twitter"></i></a></div>
+				<div class="icons"> <a href=""><i class="fa-brands fa-instagram"></i></a></div>
+			</div>
 		</div>
-		<div class="form">
-			<form>
-				<input type="text" placeholder="Email address or phone number" class="input">
-				<input type="password" placeholder="Password" class="input">
-				<input type="submit" value="Log in" class="login"> 
-			</form>
+		<div id="home">
+			<div class="text">
+				<h5 class="front">Hi There</h5>
+				<h1 class="heading">I am Prottoy Chakraborty.</h1>
+				<h3 class="title">Profetional developer</h3>
+				<p>
+					Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual mockups.
+				</p>
+				<div class="buttons">
+					<button class="button one">About Me</button>
+					<button class="button two">Contact</button>
+				</div>
+			</div>
+			<div class="image">
+				<img src="class.jpg" class="image1">
+			</div>
+		</div>
+		<div id="about">
+			<div class="image2">
+				<img src="man2.jpg" alt="" class="images3">
+			</div>
+			<div class="main">
+				<div class="nav2">
+					<button class="four">My Story</button>
+					<button class="Button five">Business</button>
+					<button class="Button six">About me</button>
+				</div>
+				<div class="text2">
+					<h2>My Story</h2>
+					<p>
+						Hello! I'm Prottoy Chakraborty. Senior Web Developer specializing in front end development. Experienced with all stages of the development cycle for dynamic web projects. Well-versed in numerous programming languages including JavaScript, SQL,jQuery,React js, redux,video js and C. Stng background in project management and customer relations.
+					</p>
+					<h4>I Do Business and Partnership since I Was 15 Years Old</h4>
+					<p class="name">Prottoy</p>
+					<link href="https://fonts.cdnfonts.com/css/best-signature-font" rel="stylesheet">
+                
+				</div>
+			</div>
+		</div>
+		<div id="gallery">
+			<h2>My Gallery</h2>
+			<div class="option">
+				<button class="four">All Photo</button>
+				<button class="four">Gallery 1</button>
+				<button class="four">Gallery 2</button>
+				<button class="four">Gallery 3</button>
+			</div>
+			<div class="images">
+				<img src="suv.jpg" class="imageone">	
+				<img src="img1.jpg">
+				<img src="img2.jpg">
+				<img src="img3.jpg">
+				<img src="img4.jpg">
+				<img src="img5.jpg">
+				<img src="img6.jpg">
+				<img src="img7.jpg">
+				<img src="img8.jpg">
+				<img src="img9.jpg">
+			</div>
+		</div>
+		<div id="contact">
+			<h2>Contact</h2>
 			
-			<a href="" class="forgot-password">Forgotten password?</a>
-			<div class="line"></div>
-			<a href="" class="new-account">Create new account</a>
-			<p><a href="">Create a page</a> for celebrity, brand or business.</p>
+				<form>
+					<input type="text" placeholder="Your Name">
+					<input type="text" placeholder="Your Name">
+					<textarea cols="30" rows="10" placeholder="Enter Your Message"></textarea>
+					<button type="submit">Submit</button>
+				</form>
+			</div>
 		</div>
-	</div>
-	
-</body>
+	</body>
 </html>
